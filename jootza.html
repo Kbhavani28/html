@@ -6,16 +6,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        ul{
+            margin:0;
+            padding:0;
+            text-align: right;
+            
+
+        }
+        ul li{
+            list-style: none;
+            text-align: right;
+            display: inline-block;
+           
+            
+        }
+        ul a{
+            text-decoration: none;
+            color:black;
+            font-family:sans-serif;
+            font-size: 13px;
+              padding: 20px; 
+             }
+        nav{
+           
+            width:100%;
+            height:100px;
+            background-color:rgba(223, 217, 217, 0.363);
+            float:0
+        }
+        #Heading{
+            text-align:center;
+            font-size: 3em;
+            
+        }
+        #hero{
+            
+            width:100%;
+            height:40vh;
+            background-color: rgba(211, 205, 205, 0.151);
+            float:0;
+           }
+           .container{
+               width:100%;
+               height:100%;
+               margin :0 auto;
+               display:flex;
+               justify-content: center;
+
+           }
+        .info p{
+            font-size:20px;
+            
+        }
+        .list{
+            text-decoration: none;
+            color:white;
+            /* background:rgba(91, 91, 211, 0.829); */
+            padding:15px;
+            text-align: center;
+            font-size:20px;
+            display: inline-block;
+            margin-left: 40%;
+            margin-top: 2%;
+            list-style: none;
+            
+            }
+            #two{
+                text-decoration: none;
+                background-color: cornsilk;
+                color: rgba(75, 75, 165, 0.89);
+                border:1px solid blue;
+                margin-right:0%;
+                display:inline;
+                }
+            #one{
+                background-color: rgb(154, 154, 219);
+            }
+            h1{
+                text-align: center;
+            }
+            #priya{
+                text-align: left;
+            }
+        
+    </style>
 </head>
 <body>
-    <h1 id=first>Jootza.com</h1>
+    <nav>
+        <h1 id='priya'>JOOTZA</h1>
+    <ul>
+        <li><a href="#">REGISTER NOW</a></li>
+        <li><a href="#">LOGIN</a></li>
+    </ul>
+    </nav>
+    <br>
+    <br>
+    <section id='hero'>
+        <div class='Container'>
+            <div class='info'>
+                <h1 id='Heading'>A New and Better way</h1>
+                <br>
+                <p >An innovative based approach to manage your employees time which will set up your project management,<br>helping you manage your business smarter </p>
+               <ul class='list'>
+                <li><a id='one'href="#">REGISTER NOW</a></li>
+                <li><a id='two' href="#">LOGIN</a></li>
+               </ul> 
+            </div>
+        </div>
+        
+    </section>
     
-    <h1 id=two>Perfect for your business</h1>
+    <div class='space'>
+    <h1>Perfect for your business</h1>
     
     <br>
     <p id=three>Jootza has amazing features that will help you easily track timesheets on any device to perfect project
         management,
         manage timesheets, send <br>accurate invoices, and save thousands each year</p>
+    </div>
     <br>
     <br>
     <br>
@@ -31,7 +140,7 @@
     
             <div1>
                 <img src="https://www.jootza.com/assets/img/landing/icon1.png" width="50px" alt="Durational">
-                <h3>Durational</h3>
+                <h3>Durational</h3  >
                 <p>Employees enter the duration<br>of tasks but not when it was<br>performed.</p>
             </div1>
             <div2><img src="https://www.jootza.com/assets/img/landing/icon2.png" width="50px" alt="Automatic">
